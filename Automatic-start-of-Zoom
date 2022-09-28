@@ -1,0 +1,5 @@
+@echo off
+start zoommtg:"//zoom.us/join?action=join&confno=99765852593&pwd=V3R6RHdKYmFsYzZ3V3FESExXdCtnQT09"
+
+cd "C:\Program Files\obs-studio\bin\64bit"
+start /min cmd /c ""C:\Program Files\obs-studio\bin\64bit\obs64.exe" --profile "授業" --collection "授業" --minimize-to-tray --startrecording"
